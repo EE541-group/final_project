@@ -44,6 +44,7 @@ class ResizePadToSquare:
 
 DATA_DIR       = "./dataset/garbage_classification"
 OUTPUT_ROOT    = "./checkpoint/vgg"
+os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
 classes = os.listdir(DATA_DIR)
 NUM_CLASSES = len(classes)

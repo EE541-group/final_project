@@ -60,7 +60,7 @@ NUM_EPOCHS = 20
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-OUTPUT_ROOT = './checkpoint'
+OUTPUT_ROOT = './checkpoint/mobileNet'
 os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
 
