@@ -43,7 +43,7 @@ class ResizePadToSquare:
         return img
 
 DATA_DIR       = "./dataset/garbage_classification"
-OUTPUT_ROOT    = "./checkpoint/efficientnet"
+OUTPUT_ROOT    = "./checkpoint/vgg"
 
 classes = os.listdir(DATA_DIR)
 NUM_CLASSES = len(classes)
